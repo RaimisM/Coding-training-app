@@ -1,5 +1,5 @@
 # Coding-training-app
-
+```
 capstone/
 ├── apps/
 │   └── api/
@@ -24,3 +24,4 @@ capstone/
 │       └── package.json
 ├── README.md
 └── package.json
+```
