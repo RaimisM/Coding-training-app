@@ -1,0 +1,8 @@
+{
+  "name": "interview-trainer",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "test": "pnpm -r test"
+  }
+}
