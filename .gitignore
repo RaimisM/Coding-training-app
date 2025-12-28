@@ -1,9 +1,10 @@
 # Node dependencies
-node_modules
+node_modules/
+**/node_modules/
 
 # Build output
-dist
-build
+dist/
+build/
 
 # Logs
 *.log
@@ -13,3 +14,10 @@ yarn-error.log*
 
 # Environment variables
 .env
+.env.local
+
+# TypeScript incremental builds
+*.tsbuildinfo
+
+# Optional editor settings
+.vscode/
