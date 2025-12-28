@@ -11,8 +11,8 @@ coding-training-app
 │       │   │   └── server.ts
 │       │   ├── tests
 │       │   │   └── health.test.ts
+│       │   ├── node_modules
 │       │   ├── package.json
-│       │   ├── pnpm-lock.yaml
 │       │   ├── tsconfig.json
 │       │   └── vitest.config.ts
 │       ├── node_modules
