@@ -6,7 +6,8 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test": "vitest"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
@@ -24,10 +25,11 @@
     "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "^20.4.2",
     "@types/pg": "^8.16.0",
+    "@vitest/coverage-v8": "^4.0.16",
     "prisma": "^7.2.0",
     "supertest": "^6.3.3",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
-    "vitest": "^0.34.3"
+    "vitest": "^4.0.16"
   }
 }

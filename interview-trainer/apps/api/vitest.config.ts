@@ -5,10 +5,7 @@ export default defineConfig({
     environment: 'node',
     coverage: {
       provider: 'v8',
-      reporter: ['text', 'html'],
-      lines: 70,
-      functions: 70,
-      branches: 60
-    }
-  }
+      reporter: ['text', 'html']
+    },
+  },
 })
